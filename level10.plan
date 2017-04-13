@@ -1,0 +1,8 @@
+Eggdrop Manual: http://www.egghelp.org/using.htm
+Eggdrop Tcl Commands: http://www.eggheads.org/support/egghtml/1.6.18/tcl-commands.html
+
+Try2hack level10 plan:'
+- Add new user (adduser roku6185)
+- /msg <bot> pass newpasswd
+- Set ownership (chattr roku6185 +n)
+- Initiate DCC chat to bot (/ctcp <bot> CHAT)

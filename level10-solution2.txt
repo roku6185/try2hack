@@ -1,0 +1,4 @@
+bind ctcr - PING ctcr:pingreply
+proc ctcr:pingreply {nick uhost hand dest key arg} {
+set dur [expr [unixtime] - $arg]
+putserv "NOTICE $nick :Your ping reply took $dur seconds"}
